@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+.americanFlagContainer {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 1310px;
+    height: 819px;
+    justify-content: flex-start;
+    position: relative;
+}
+.stripes {
+    width: 100%;
+    height: auto;
+}
+.redstripe {
+    background-color: red;
+    height: 63px;
+    width: 100%;
+}
+.whitestripe {
+    background-color: white;
+    height: 63px;
+    width: 100%;
+}
+.stars {
+    width: 524px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

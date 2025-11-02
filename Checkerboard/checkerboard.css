@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+.checkerboard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.square:nth-child(64n+1),
+.square:nth-child(64n+3),
+.square:nth-child(64n+5),
+.square:nth-child(64n+7),
+.square:nth-child(64n+10),
+.square:nth-child(64n+12),
+.square:nth-child(64n+14),
+.square:nth-child(64n+16),
+.square:nth-child(64n+17),
+.square:nth-child(64n+19),
+.square:nth-child(64n+21),
+.square:nth-child(64n+23),
+.square:nth-child(64n+26),
+.square:nth-child(64n+28),
+.square:nth-child(64n+30),
+.square:nth-child(64n+32),
+.square:nth-child(64n+33),
+.square:nth-child(64n+35),
+.square:nth-child(64n+37),
+.square:nth-child(64n+39),
+.square:nth-child(64n+42),
+.square:nth-child(64n+44),
+.square:nth-child(64n+46),
+.square:nth-child(64n+48),
+.square:nth-child(64n+49),
+.square:nth-child(64n+51),
+.square:nth-child(64n+53),
+.square:nth-child(64n+55),
+.square:nth-child(64n+58),
+.square:nth-child(64n+60),
+.square:nth-child(64n+62),
+.square:nth-child(64n+64) {
+    background-color: black;
+}
